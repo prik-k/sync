@@ -120,13 +120,20 @@ h6 {
   height: 110vh;
   position: relative;
   }
-  #img-btn, #bg-vector{
+   #bg-vector{
     display: none;
   }
   #logo-text{
     color: #fff;
   }
   #bg-text{
+    display: none;
+  }
+  #bgg-text{
+    text-align: centre;
+  }
+
+  #img-btn{
     display: none;
   }
 }
@@ -403,7 +410,7 @@ a:hover, a:focus, a:active {
   font-size: 16px;
   padding: 12px 24px;
   border: 2px solid #fff;
-  cursor: pointer;
+  /*cursor: pointer;*/
   border-radius: 34px;
   line-height: 15px;
 }
@@ -482,7 +489,7 @@ letter-spacing: 2px;
   color: #145999;
   line-height: 1.2;
   font-size: 18px; 
-  font-weight: 600;
+  font-weight: 500;
   margin-left: -25px;
 }
 
