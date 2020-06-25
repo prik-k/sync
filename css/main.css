@@ -103,22 +103,40 @@ h6 {
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
-  }
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-/* phone-bg */
-@media(max-width: 714px){
-.masthead {
-  background: url("../img/bg-master-phone.jpg");
-  background-attachment: initial;
+  background: url("../img/bg-master.jpg");
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
-  position: relative;
+}
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+  #img-btn{
+    background-color: red;
+  }
+
+  #img-btn-2{
+    display: none;
+  }
+}
+/* phone-bg */
+@media (max-width: 600px){
+  .masthead {
+    background: url("../img/bg-master-phone.jpg");
+    background-attachment: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    position: relative;
   }
    #bg-vector{
     display: none;
@@ -132,10 +150,40 @@ h6 {
   #bgg-text{
     text-align: centre;
   }
-
   #img-btn{
     display: none;
   }
+
+  #img-btn-2{
+    /*display: none;*/
+  }
+}
+@media (max-width: 992px) and (min-width: 600px){
+  .masthead {
+    background: url("../img/bg-tablet.jpg");
+    background-attachment: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    position: relative;
+  }
+  #img-btn{
+    display: none;
+  }
+
+  #img-btn-2{
+    /*display: none;*/
+  }
+
+  .main-text{
+  margin-top: -100px;
+  }
+
+  #bg-vector, #bg-text{
+    display: none;
+  }
+
 }
 
 
@@ -242,20 +290,6 @@ color: #fff;
 
 }
 
-/*.callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-}*/
 
 .portfolio-item {
   display: block;
@@ -349,7 +383,7 @@ color: #fff;
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
-    transition: opacity 0.25s;
+    transition: opacity 0.5s;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
@@ -372,8 +406,7 @@ color: #fff;
   }
   .portfolio-item:hover .btn{
     display: block;
-  }
-  
+  } 
 }
 
 
@@ -455,27 +488,6 @@ a:hover, a:focus, a:active {
   color: #ecb807 !important;
 }
 
-#img-btn{
-  position: absolute;
-  top: 10%;
-  left: 75%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background: transparent;
-  color: #fff;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: 2px solid #fff;
-  /*cursor: pointer;*/
-  border-radius: 34px;
-  line-height: 15px;
-}
-#img-btn:hover {
-  background: #fff;
-  color: #1459bb;
-  box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
-}
-
 #bg-text{
 margin-right: 90px;
 margin-top: -30px;
@@ -504,6 +516,22 @@ letter-spacing: 2px;
 #my-logo{
   height: 50px;
   width: 50px
+}
+
+#logo-div{
+  top: 0;
+  left: 0;
+  margin-top: -120px;
+  padding-left: 10px;
+}
+
+#bgg-text{
+  text-align: justify; 
+  word-spacing:3px;
+  color: #145999;
+  line-height: 1.2;
+  font-size: 18px; 
+  font-weight: 500;
 }
 
 #text-btn{
@@ -539,21 +567,39 @@ letter-spacing: 2px;
 
 }
 
-#logo-div{
-  top: 0;
-  left: 0;
-  margin-top: -120px;
-  padding-left: 10px;
+#img-btn-2{
+    border-radius: 34px;
+    border: 2px solid #145999;
+    color: #145999;
+    /*display: none;*/
 }
 
-#bgg-text{
-  text-align: left; 
-  word-spacing:3px;
-  color: #145999;
-  line-height: 1.2;
-  font-size: 18px; 
-  font-weight: 500;
- 
+#img-btn-2:hover{
+  background: #1459bb;
+  color: #fff;
+  box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2)
+
 }
+
+#img-btn{
+  position: relative;
+  margin-top: -250px;
+  left: 13%;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: 2px solid #fff;
+  border-radius: 34px;
+  line-height: 15px;
+}
+
+#img-btn:hover {
+  background: #fff;
+  color: #1459bb;
+  box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
+}
+
+
 
 
