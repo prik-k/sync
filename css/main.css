@@ -73,7 +73,7 @@ h6 {
 }
 
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #159999;
 }
 
 .scroll-to-top i {
@@ -222,7 +222,7 @@ h6 {
 }
 
 .menu-toggle:hover {
-  background: #343a40;
+  background: #159999;
 }
 
 .service-icon {
@@ -235,8 +235,14 @@ h6 {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+.service-icon:hover{
+  background-color: rgba(29, 208, 159, 0.9);
+  transition: clip-path 5s ease-out, background-color 0.7s, -webkit-clip-path 5s ease-out;
+color: #fff;
 
-.callout {
+}
+
+/*.callout {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
   background-position: center center;
@@ -249,7 +255,7 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
-}
+}*/
 
 .portfolio-item {
   display: block;
@@ -285,6 +291,10 @@ h6 {
   font-size: 1.2rem;
 }
 
+.bnr{
+    display: none;
+  }
+
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
@@ -311,15 +321,58 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem); 
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    background-color: rgba(29, 128, 159, 0.6);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
+  .portfolio-item:hover .btn{
+    display: block;
+  }
+  
 }
+
+
+@media (max-width: 992px) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption {
+    transition: background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
+    transition: clip-path 0.25s ease-out, background-color 0.7s, -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .portfolio-item img {
+    transition: -webkit-clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out;
+    transition: clip-path 0.25s ease-out, -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(4px);
+    clip-path: inset(4px); 
+  }
+  .portfolio-item:hover .caption {
+    background-color: rgba(29, 128, 159, 0.6);
+    -webkit-clip-path: inset(4px);
+    clip-path: inset(4px);
+  }
+  
+}
+
 
 .map iframe {
   height: 100%;
@@ -441,7 +494,6 @@ letter-spacing: 2px;
 }
 
 #logo-text{
-  /*float: right;*/
   margin-top: -50px;
   margin-left: 50px;
 }
@@ -474,7 +526,6 @@ letter-spacing: 2px;
 #iimg-btn{
     border-radius: 34px;
     border: 2px solid #145999;
-    /*margin-left: -25px;*/
     color: #145999;
 }
 
@@ -499,7 +550,7 @@ letter-spacing: 2px;
   line-height: 1.2;
   font-size: 18px; 
   font-weight: 500;
-  /*margin-left: -25px;*/
+ 
 }
 
 
