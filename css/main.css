@@ -370,6 +370,9 @@ color: #fff;
     -webkit-clip-path: inset(4px);
     clip-path: inset(4px);
   }
+  .portfolio-item:hover .btn{
+    display: block;
+  }
   
 }
 
