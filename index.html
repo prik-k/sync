@@ -124,8 +124,8 @@
     <div class="row">
         <div class="col-md-12 col-sm-12">
 			<center><h1 style="padding-top: 30px;">Our Products</h1></center>
-			<div class="prev no_select"> < </div>
-            <div class="next no_select"> > </div>
+			<div class="prev no_select" onclick="plusSlides(-1)"> < </div>
+            <div class="next no_select" onclick="plusSlides(1)"> > </div>
             <div id="carousell" class="news-slider owl-carousel">
 
                 <div class="post-slide">
@@ -407,17 +407,16 @@ $(document).ready(function() {
         pagination:false,
         navigationText:false,
         navigationText:true,
-        autoPlay:true,
+        autoPlay:2000,
 		loop: true,
-		// margin: 30,
-		// nav: true,
-		navigation : false,
-        navigationText : ["prev", "next"],
+		navigation : true,
+        // navigationText : ["prev", "next"],
         rewindNav : true,
-        scrollPerPage : false
+        rewindSpeed :500,
+        slideSpeed: 700
     });
   // var owl = $(".owl_content").data('owlCarousel');
-  var owl = $(".post-slide").data('owlCarousel');
+  var owl = $(".news-slider").data('owlCarousel');
   $('.next').click(function(){owl.next();});
   $('.prev').click(function(){owl.prev();});
 	
