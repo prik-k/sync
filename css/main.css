@@ -715,8 +715,10 @@ letter-spacing: 2px;
 }
 @media (max-width: 636px){
   .prev, .next{display: none;}
-  .owl-carousel, #news-slider{display: none;}
-  /*.owl-carousel{property: initial;}*/
+  img {
+  max-width: 100%;
+  height: auto;
+  }
 }
 
 /* SYNC slider end  */
