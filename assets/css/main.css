@@ -758,6 +758,8 @@ footer {
 
 footer .footer-nav {
   /*margin-top: -7px;*/
+  font-size: 14px;
+  width: 100%;
 }
 
 footer .footer-nav li {
@@ -782,6 +784,7 @@ footer .footer-nav li a:hover {
 
 .single-footer-widget {
   margin-bottom: 30px;
+  font-size: 14px;
 }
 
 .footer-bottom {
@@ -817,7 +820,9 @@ footer .footer-nav li a:hover {
 }
 
 .footer-social {
-  margin-right: -5px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
   padding-top: 25px;
 }
 
@@ -832,7 +837,17 @@ footer .footer-nav li a:hover {
 .footer-social a:hover {
   color: #fff;
 }
-/**/
+
+#ft-social-mob{
+  display: none;
+}
+
+
+#ft-social-mob a{
+  font-size: 29px;
+  margin: 0 5px;
+}
+
   .products-desktop{
     display: block;
   }
@@ -849,6 +864,12 @@ footer .footer-nav li a:hover {
   .products-mobile{
     display: block;
   }  
+  #ft-social-mob{
+    display: block;
+  }
+  #ft-social-desk{
+    display: none;
+  }
 }
 
 /*START FAQ AREA */
