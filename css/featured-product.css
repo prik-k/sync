@@ -229,7 +229,7 @@
  }
  
  .fp-box::after {
-   content: "Discover the attacker's tactics and purposes and find out the identity";
+   content: "";
    position: absolute;
    width: 170px;
    top: 111px;
@@ -296,7 +296,7 @@ position: absolute;
  }
  
  .fp-box-a1::after {
-   content: "We host upto 1000 participants/students at a time.";
+   content: "We can host upto 1000 participants/students at a time.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -354,7 +354,7 @@ position: absolute;
  }
  
  .fp-box-a2::after {
-   content: "No meeting time or duration limit.";
+   content: "No meeting duration time limit. Happy hours!";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -411,7 +411,7 @@ position: absolute;
  }
  
  .fp-box-a3::after {
-   content: "Unlimited number of meetings";
+   content: "We allow unlimited number of meetings.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -468,7 +468,7 @@ position: absolute;
  }
  
  .fp-box-a4::after {
-   content: "HD Audio and Video support.";
+   content: "HD Quality Audio and Video support.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -525,7 +525,7 @@ position: absolute;
  }
  
  .fp-box-a5::after {
-   content: "No meeting time or duration limit.";
+   content: "Screen Sharing for smooth presentation experience.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -582,7 +582,7 @@ position: absolute;
  }
  
  .fp-box-a6::after {
-   content: "No meeting time or duration limit.";
+   content: "Chat with members in Private and Public modes.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -639,7 +639,7 @@ position: absolute;
  }
  
  .fp-box-a7::after {
-   content: "No meeting time or duration limit.";
+   content: "Various Embedded tools for Presentation just for you.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -696,7 +696,7 @@ position: absolute;
  }
  
  .fp-box-a8::after {
-   content: "No meeting time or duration limit.";
+   content: "Web Conferencing - Virtually meet Anytime, Anywhere with us.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -753,7 +753,7 @@ position: absolute;
  }
  
  .fp-box-a9::after {
-   content: "No meeting time or duration limit.";
+   content: "Record Sessions in your local machine in MP4 format.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -810,7 +810,7 @@ position: absolute;
  }
  
  .fp-box-a10::after {
-   content: "No meeting time or duration limit.";
+   content: "We Support Mac, Windows, Linux, iOS and Android.";
    text-align: justify;
    position: absolute;
    width: 170px;
@@ -867,7 +867,7 @@ position: absolute;
  }
  
  .fp-box-a11::after {
-   content: "No meeting time or duration limit.";
+   content: "Added Benifit - Company Branding.";
    text-align: justify;
    position: absolute;
    width: 170px;
