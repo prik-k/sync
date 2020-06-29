@@ -6,7 +6,8 @@ html {
 
 body {
   /*font-family: 'Source Sans Pro';*/
-  font-family: 'Manrope', sans-serif;
+  /*font-family: 'Manrope', sans-serif;*/
+  font-family: 'Open Sans';
 }
 
 .btn-xl {
@@ -162,15 +163,11 @@ h6 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 130vh;
+    height: 155vh;
     position: relative;
   }
   #img-btn{
     display: none;
-  }
-
-  #img-btn-2{
-    /*display: none;*/
   }
 
   .main-text{
@@ -435,13 +432,16 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: #fff;
 }
 
+a:link {
+  text-decoration: none ;
+}
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;
@@ -486,7 +486,7 @@ a:hover, a:focus, a:active {
 }
 
 #bg-text{
-margin-right: 90px;
+margin-right: 50px;
 margin-top: -30px;
 text-align: right;
 font-weight: 700;
@@ -506,7 +506,7 @@ letter-spacing: 2px;
 }
 
 #logo-text{
-  margin-top: -50px;
+  margin-top: -38px;
   margin-left: 50px;
 }
 
@@ -551,17 +551,33 @@ letter-spacing: 2px;
   box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2);
 }
 
-#iimg-btn{
+.iimg-btn{
     border-radius: 34px;
     border: 2px solid #145999;
     color: #145999;
+    background-color: snow;
 }
 
-#iimg-btn:hover{
+.iimg-btn:hover{
   background: #1459bb;
   color: #fff;
   box-shadow: 0px 10px 20px 0px rgba(60, 64, 143, 0.2)
+}
 
+#km-btn{
+  color: #145999;
+}
+
+#km-btn:hover{
+  color: #fff;
+}
+
+a:active,
+a:focus{ 
+  -moz-outline-style: none;
+  outline:none;
+  outline: 0;
+  color: black;
 }
 
 #img-btn-2{
@@ -715,10 +731,180 @@ letter-spacing: 2px;
 }
 @media (max-width: 636px){
   .prev, .next{display: none;}
-  img {
+  #bg-vector img{
   max-width: 100%;
   height: auto;
   }
 }
 
 /* SYNC slider end  */
+
+/* FOOTER */
+
+.section-full {
+  padding: 50px 0;
+}
+
+.single-footer-widget {
+  margin-bottom: 30px;
+}
+.text-white {
+  color: #fff;
+}
+
+footer {
+  background: #1a2335;
+}
+
+footer .footer-nav {
+  margin-top: -7px;
+}
+
+footer .footer-nav li {
+  margin-top: 8px;
+}
+
+footer .footer-nav li a:hover {
+  color: #fff;
+}
+
+.instafeed {
+  margin: -5px;
+}
+
+.instafeed li {
+  width: 25%;
+}
+
+.instafeed li img {
+  margin: 5px;
+}
+
+.single-footer-widget {
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  padding-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+.footer-bottom .footer-text a:hover {
+  color: #fff;
+}
+
+.logo1{
+  height: 200px;
+  width: 200px
+}
+
+.footer-tag{
+  margin-left: -310px;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer-social {
+  margin-right: -5px;
+}
+
+.footer-social a {
+  font-size: 32px;
+  margin: 0 5px;
+  padding: 0 5px;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-social a:hover {
+  color: #fff;
+}
+/**/
+  .products-desktop{
+    display: block;
+  }
+  .products-mobile{
+    display: none;
+  }
+
+
+
+@media (max-width: 767px){
+  .products-desktop{
+    display: none;
+  }
+  .products-mobile{
+    display: block;
+  }  
+}
+
+/*START FAQ AREA */
+.accordion{
+    width: 100%;
+    /*max-width: 2000px;*/
+    margin: 1rem auto;
+    
+}
+.accordion-item{
+    background: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+    
+}
+.accordion-item-header{
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.35rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    
+}
+.accordion-item-header::after{
+    content: "\25BE";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.1s ease-in-out;
+    
+}
+.accordion-item-header.active::after{
+    /*content: "\2212";*/
+    transform: rotate(180deg);
+    
+}
+.accordion-item-body{
+   max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+
+}
+.accordion-item-body-content{
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    
+}
+.accordion-item-header.active{
+    color: #145999;
+}
+/*.accordion-item-header.active + .accordion-item-body{
+    max-height: auto;
+}*/
+@media(max-width:767px){
+    html{
+        font-size: 14px;
+    }  
+}
+
+footer a:hover, a:focus, a:active {
+  color: #fff;
+}
+
+/*END FAQ AREA*/
+

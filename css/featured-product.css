@@ -1,0 +1,676 @@
+
+/* Featured products section*/
+/*A1 stands for the first box's first icon*/
+/*A2 stands for first box's second icon and so on...*/
+
+
+
+
+/* ORIGINAL */
+#bground {
+  background: #f0f0f2;
+  /*font-family: 'Hind Siliguri', sans-serif;*/
+}
+
+.box {
+  background: white;
+  margin: auto;
+  margin-top: 5%;
+  max-width: 100%;
+  padding: 20px 50px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.box:hover {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 4px solid #145999;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/*#fp-know-more {
+  border:none;
+  background: red;
+  color: #f0f0f2;
+  background: #145999;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+}*/
+
+/*#fp-know-more:hover {
+  border-right: 2px solid black;
+}*/
+
+
+/*@keyframes example {*/
+    /*0%   {border-left: 2px solid #101959;}*/
+    /*25%  {border-left: 3px solid #112969;}*/
+    /*50%  {border-left: 4px solid #123979;}*/
+    /*100% {border-left: 5px solid #134989;}*/
+/*}*/
+
+/* Featured products ends */
+
+/* fp- Icons */
+
+/*html {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+ }*/
+ 
+ /*body {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: justify;
+       -ms-flex-pack: justify;
+           justify-content: space-between;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   min-height: 100vh;
+   background-color: #F7F9FC;
+   font-family: system, -apple-system, BlinkMacSystemFont, sans-serif;
+   font-size: 20px;
+   color: #5d6494;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }*/
+ 
+ .fp-container {
+   width: 220px;
+   height: 220px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   /*display: flex;*/
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+ }
+ 
+ .fp-box {
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .icon {
+   position: relative;
+   margin-top: 8px;
+   -webkit-transition: all 0.6s ease;
+   transition: all 0.6s ease;
+   -webkit-transition-delay: 0.1s;
+           transition-delay: 0.1s;
+   will-change: transform;
+   /*font-size: 0.2rem;*/
+ }
+ #fp-icon{
+  height: 30px;
+  width: 30px;
+  margin-left: -35px;
+ }
+ 
+ .icon_bg {
+   width: 80px;
+   height: 80px;
+   border-radius: 100%;
+   border: 1px solid rgba(225, 227, 232, 0.18);
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   background-color: #fff;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-transition: all 0.6s ease;
+   transition: all 0.6s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+   will-change: transform;
+ }
+ 
+ .fp-title {
+   position: relative;
+   margin-left: -35px;
+ }
+ 
+ .super-box:hover .fp-box {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .super-box:hover .icon_bg {
+   -webkit-transform: translateY(-32px) scale(6);
+           transform: translateY(-32px) scale(6);
+ }
+ 
+ .super-box:hover .icon {
+   -webkit-transform: translateY(-48px) scale(1.4);
+           transform: translateY(-48px) scale(1.4);
+ }
+ 
+ .super-box {
+  margin-left: -30px;
+   width: 220px;
+   height: 220px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+ }
+ 
+ .fp-text {
+   position: relative;
+   top: -32px;
+   width: 200px;
+   text-align: center;
+   -webkit-transition: all 0.2s ease;
+   transition: all 0.6s ease;
+   -webkit-transition-delay: 0.2s;
+           transition-delay: 0.2s;
+ }
+ 
+ .super-box:hover .fp-text {
+   opacity: 0;
+   -webkit-transform: translateY(-4px) scale(.8);
+           transform: translateY(-4px) scale(.8);
+   
+ }
+ 
+ .fp-box::after {
+   content: "Discover the attacker's tactics and purposes and find out the identity";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+
+ .super-box:hover .fp-box::after {
+   opacity: 1;
+ }
+
+.dr {
+position: absolute;
+  bottom: 16px; 
+  right: 16px;
+  width:100px;
+}
+
+/* fp- Icons End */
+
+
+/* A1 */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+ 
+ .fp-box-a1 {
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-a1 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-a1::after {
+   content: "We host upto 1000 participants/students at a time.";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-a1::after {
+   opacity: 1;
+ }
+
+/* A1 ENDS */
+
+
+/* A2 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-a2 {
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-a2 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-a2::after {
+   content: "No meeting time or duration limit.";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-a2::after {
+   opacity: 1;
+ }
+
+/* A2 ENDS */
+
+/* A3 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-a3 {
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-a3 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-a3::after {
+   content: "Unlimited number of meetings";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-a3::after {
+   opacity: 1;
+ }
+
+/* A3 ENDS */
+
+/* A4 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-a4 {
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-a4 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-a4::after {
+   content: "HD Audio and Video support.";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-a4::after {
+   opacity: 1;
+ }
+
+/* A4 ENDS */
+
+/* A5 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-a5 {
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-a5 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-a5::after {
+   content: "No meeting time or duration limit.";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-a5::after {
+   opacity: 1;
+ }
+
+/* A5 ENDS */
+
+/* A6 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-a6 {
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-a6 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-a6::after {
+   content: "No meeting time or duration limit.";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-a6::after {
+   opacity: 1;
+ }
+
+/* A6 ENDS */
+
+/* A7 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-a7{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-a7 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-a7::after {
+   content: "No meeting time or duration limit.";
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-a7::after {
+   opacity: 1;
+ }
+
+/* A7 ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
