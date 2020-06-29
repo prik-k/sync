@@ -1855,7 +1855,7 @@ position: absolute;
  }
  
  .fp-box-b17::after {
-   content: "Application supporting 4 types of users, Student, Teacher, Parents and Managers(Admins).";
+   content: "Application supporting 4 types of users, Student, Teacher, Parents and Managers (Admins).";
    text-align: center;
    position: absolute;
    width: 170px;
