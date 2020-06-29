@@ -302,7 +302,7 @@ position: absolute;
    width: 170px;
    top: 111px;
    opacity: 0;
-   font-size: 13px;
+   font-size: 11px;
    color: #5d6494;
    line-height: 20px;
    -webkit-transition: all 0.3s ease;
@@ -888,11 +888,1109 @@ position: absolute;
 
 /* A11 ENDS */
 
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+/* B SERIES STARTS */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/* B1 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b1{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b1 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b1::after {
+   content: "Complete academic management with subject, teacher and many more.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b1::after {
+   opacity: 1;
+ }
+
+/* B1 ENDS */
 
 
+/* B2 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b2{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b2 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b2::after {
+   content: "Time table management and visibility by students for digital accessibility.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b2::after {
+   opacity: 1;
+ }
+
+/* B2 ENDS */
 
 
+/* B# START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b3{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b3 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b3::after {
+   content: "Examination management for both offline and online mode with seatings.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
 
+ .super-box:hover .fp-box-b3::after {
+   opacity: 1;
+ }
+
+/* B3 ENDS */
+
+
+/* B4 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b4{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b4 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b4::after {
+   content: "Leave applications management, acceptance, rejection of the leaves.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b4::after {
+   opacity: 1;
+ }
+
+/* B4 ENDS */
+
+
+/* B5 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b5{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b5 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b5::after {
+   content: "Digital management of fees and payments for everyone at one go.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b5::after {
+   opacity: 1;
+ }
+
+/* B5 ENDS */
+
+
+/* B6 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b6{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b6 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b6::after {
+   content: "Complete library management with records keeping of resources.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b6::after {
+   opacity: 1;
+ }
+
+/* B6 ENDS */
+
+
+/* B7 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b7{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b7 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b7::after {
+   content: "Events management with participants registration and visibility.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b7::after {
+   opacity: 1;
+ }
+
+/* B7 ENDS */
+
+
+/* B8 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b8{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b8 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b8::after {
+   content: "Organization's resources and inventory management for administrations.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b8::after {
+   opacity: 1;
+ }
+
+/* B8 ENDS */
+
+
+/* B9 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b9{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b9 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b9::after {
+   content: "Admission's organization with applications and sharable links.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b9::after {
+   opacity: 1;
+ }
+
+/* B9 ENDS */
+
+
+/* B10 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b10{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b10 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b10::after {
+   content: "User and profile management, personal account information.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b10::after {
+   opacity: 1;
+ }
+
+/* B10 ENDS */
+
+/* B11 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b11{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b11 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b11::after {
+   content: "Examination assessment and digital report card generation.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b11::after {
+   opacity: 1;
+ }
+
+/* B11 ENDS */
+
+
+/* B12 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b12{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b12 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b12::after {
+   content: "Controlled entitlement access to each user within organization.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b12::after {
+   opacity: 1;
+ }
+
+/* B12 ENDS */
+
+
+/* B13 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b13{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b13 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b13::after {
+   content: "SMS and broadcast messages to users along with mails using telemetry.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 13px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b13::after {
+   opacity: 1;
+ }
+
+/* B13 ENDS */
+
+
+/* B14 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b14{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b14 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b14::after {
+   content: "Highly available system with complete secure application with user level access management.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 11px;
+   color: #5d6494;
+   line-height: 17px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b14::after {
+   opacity: 1;
+ }
+
+/* B14 ENDS */
+
+
+/* B15 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b15{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b15 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b15::after {
+   content: "Machine learning and analytics for fraudulent detection and advanced auditing of digital activities.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 11px;
+   color: #5d6494;
+   line-height: 17px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b15::after {
+   opacity: 1;
+ }
+
+/* B15 ENDS */
+
+
+/* B16 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b16{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b16 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b16::after {
+   content: "Completely digital and smooth on-boarding, quick configuration, with very minimal paperwork.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 11px;
+   color: #5d6494;
+   line-height: 17px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b16::after {
+   opacity: 1;
+ }
+
+/* B16 ENDS */
+
+
+/* B17 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b17{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b17 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b17::after {
+   content: "Application supporting 4 types of users, Student, Teacher, Parents and Managers(Admins).";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 11px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b17::after {
+   opacity: 1;
+ }
+
+/* B17 ENDS */
+
+
+/* B18 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b18{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b18 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b18::after {
+   content: " In house secure e-mail service for every user with affordable pricing and data protection, end-to-end communication.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 11px;
+   color: #5d6494;
+   line-height: 17px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b18::after {
+   opacity: 1;
+ }
+
+/* B18 ENDS */
+
+
+/* B19 START */
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ .fp-box-b19{
+   position: absolute;
+   width: 180px;
+   height: 180px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   border-radius: 3px;
+   overflow: hidden;
+   -webkit-transition: -webkit-box-shadow ease 1s;
+   transition: -webkit-box-shadow ease 1s;
+   transition: box-shadow ease 1s;
+   transition: box-shadow ease 1s, -webkit-box-shadow ease 1s;
+ }
+ 
+ .super-box:hover .fp-box-b19 {
+ /*   border: 1px solid rgba(225, 227, 232, 0.18); */
+   -webkit-box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+           box-shadow: 0 3px 4px 0 rgba(44, 71, 146, 0.25);
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+ 
+ .fp-box-b19::after {
+   content: " Provision for handling bulk data using excel based files for easy management by managers.";
+   text-align: center;
+   position: absolute;
+   width: 170px;
+   top: 111px;
+   opacity: 0;
+   font-size: 11px;
+   color: #5d6494;
+   line-height: 20px;
+   -webkit-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   -webkit-transition-delay: 0.32s;
+           transition-delay: 0.32s;
+ }
+
+ .super-box:hover .fp-box-b19::after {
+   opacity: 1;
+ }
+
+/* B19 ENDS */
 
 
 
